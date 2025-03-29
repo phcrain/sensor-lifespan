@@ -1,0 +1,14 @@
+[project]
+name = "sensor-lifespan"
+version = "0.1.0"
+description = "Build a ML pipeline for predicting when a sensor is close to failing and will need to be replaced"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "imbalanced-learn==0.13.0",
+    "joblib==1.4.2",
+    "numpy==2.2.1",
+    "polars==1.20.0",
+    "scikit-learn==1.5.2",
+    "xgboost==2.1.3",
+]
